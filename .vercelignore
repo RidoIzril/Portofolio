@@ -1,13 +1,1 @@
-.git
-.env
-.env.*
-node_modules
-
-
-storage/logs/*
-storage/framework/cache/*
-storage/framework/sessions/*
-storage/framework/views/*
-
-*.log
-.DS_Store
+/vendor

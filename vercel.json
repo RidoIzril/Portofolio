@@ -1,15 +1,16 @@
 {
     "$schema": "https://openapi.vercel.sh/vercel.json",
+    "buildCommand": "npm run build",
+    "outputDirectory": "public",
     "functions": {
         "api/index.php": {
-            "runtime": "vercel-php@0.9.0",
-            "includeFiles": "public/build/**"
+            "runtime": "vercel-php@0.9.0"
         }
     },
     "rewrites": [
         {
             "source": "/build/(.*)",
-            "destination": "/public/build/$1"
+            "destination": "/build/$1"
         },
         {
             "source": "/(.*)",

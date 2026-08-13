@@ -74,7 +74,6 @@ document.addEventListener('DOMContentLoaded', function () {
         { image: "{{ asset('images/pakman.png') }}", title: "Game Pakman", subtitle: "Website Game Points", slug: "project-pakman" },
         { image: "{{ asset('images/uiux.png') }}", title: "UI / UX", subtitle: "Pelaporan Kerusakan Jalan", slug: "project-UIUX" },
         { image: "{{ asset('images/SIPUtama.png') }}", title: "Sistem Informasi Pemesanan", subtitle: "Website Pemesanan Online", slug: "project-SIP" },
-        { image: "{{ asset('images/projects/project8.png') }}", title: "Project 8", subtitle: "Deskripsi singkat project 8", slug: "project-8" },
     ];
 
      let current = 0;

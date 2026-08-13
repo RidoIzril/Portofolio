@@ -209,21 +209,7 @@ class ProjectController extends Controller
                 'live_url' => '#',
                 'source_url' => '#',
             ],
-            [
-                'slug' => 'project-8',
-                'title' => 'Project 8',
-                'subtitle' => 'Deskripsi singkat project 8',
-                'role' => '-',
-                'duration' => '-',
-                'status' => 'Selesai',
-                'description' => ['Deskripsi lengkap project 8.'],
-                'tech_stack' => [],
-                'features' => [],
-                'image' => 'images/projects/project8.png',
-                'gallery' => [],
-                'live_url' => '#',
-                'source_url' => '#',
-            ],
+            
         ];
     }
 

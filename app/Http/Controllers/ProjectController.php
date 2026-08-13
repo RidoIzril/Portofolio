@@ -193,7 +193,9 @@ class ProjectController extends Controller
                 'tech_stack' => [
                     'PHP',
                     'CSS',
-                    'Bootstrap'
+                    'Bootstrap',
+                    'MySQL',
+                    'Laragon'
                 ],
                 'features' => [
                     'Pemesanan Online',
@@ -205,18 +207,12 @@ class ProjectController extends Controller
                 'image' => [
                     ['src' => 'images/SIPUtama.png', 'caption' => 'Feautured'],
                 ],
-                'gallery' => [],
-                'live_url' => '#',
-                'source_url' => '#',
+                'source_url' => 'https://github.com/RidoIzril/SIP_PWeb.git',
             ],
             
         ];
     }
 
-    /**
-     * Tampilkan halaman detail satu project berdasarkan slug,
-     * sekaligus siapkan data project sebelumnya & berikutnya untuk navigasi bawah.
-     */
     public function show(string $slug)
     {
         $projects = $this->projects();

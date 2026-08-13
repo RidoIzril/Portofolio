@@ -32,7 +32,7 @@
 
             <div class="hero-stats">
                 <div class="hero-stat">
-                    <h3>6 Month</h3>
+                    <h3>5 Month</h3>
                     <span>Internship Experience</span>
                 </div>
                 <div class="hero-stat">
@@ -46,9 +46,26 @@
             </div>
 
             <div class="hero-actions">
-                <a href="{{ asset('files/CV-Rido-Izril-Qonata.pdf') }}" class="btn-red" download>
-                    Download CV
-                </a>
+
+    <div class="hero-buttons">
+
+        <!-- Download CV -->
+        <a href="https://drive.google.com/file/d/1Y8eH8_k6opwmgWVQeYVcLglgKvwZbr_G/view?usp=sharing"
+           class="btn-red"
+           target="_blank"
+           rel="noopener noreferrer">
+            Download CV
+        </a>
+
+        <!-- Sertifikasi -->
+        <a href="https://drive.google.com/file/d/1UrdiEtO1L9Flo4Oqy91yRQtMs8HcUvp8/view?usp=sharing"
+           class="btn-red"
+           target="_blank"
+           rel="noopener noreferrer">
+            View Certificate
+        </a>
+
+    </div>
 
                 <div class="hero-socials">
                     <a href="https://www.linkedin.com/in/rido-izril-qonata-b25387310/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">

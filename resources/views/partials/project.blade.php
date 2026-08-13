@@ -67,13 +67,13 @@ document.addEventListener('DOMContentLoaded', function () {
 
     // Ganti isi array ini dengan 8 project kamu.
     const projects = [
-        { image: "{{ asset('images/projectblc1.png') }}", title: "Internship Project", subtitle: "Attendance and training website", slug: "internship-project" },
-        { image: "{{ asset('images/kantincust.png') }}", title: "Website Kantin UPNVJT", subtitle: "Transaction and management website", slug: "Project-Kantin-UPNVJT" },
-        { image: "{{ asset('images/SIPlist.png') }}", title: "Project 3", subtitle: "Deskripsi singkat project 3", slug: "project-3" },
-        { image: "{{ asset('images/projects/project4.png') }}", title: "Project 4", subtitle: "Deskripsi singkat project 4", slug: "project-4" },
-        { image: "{{ asset('images/projects/project5.png') }}", title: "Project 5", subtitle: "Deskripsi singkat project 5", slug: "project-5" },
-        { image: "{{ asset('images/projects/project6.png') }}", title: "Project 6", subtitle: "Deskripsi singkat project 6", slug: "project-6" },
-        { image: "{{ asset('images/projects/project7.png') }}", title: "Project 7", subtitle: "Deskripsi singkat project 7", slug: "project-7" },
+        { image: "{{ asset('images/projectblc1.png') }}", title: "Project Magang", subtitle: "Website pelatihan dan Profile Perusahaan", slug: "project-magang" },
+        { image: "{{ asset('images/kantincust.png') }}", title: "Website Kantin UPNVJT", subtitle: "Website transaksi dan Pengelolaan", slug: "Project-Kantin-UPNVJT" },
+        { image: "{{ asset('images/12.png') }}", title: "Project PKL", subtitle: "Website Profil Perusahaan dan Manejemen Pelatihan", slug: "project-PKL" },
+        { image: "{{ asset('images/SIE3.png') }}", title: "Sistem Informasi Eksekutif", subtitle: "Visualisasi Data dan Analisis What If", slug: "project-SIE" },
+        { image: "{{ asset('images/pakman.png') }}", title: "Game Pakman", subtitle: "Website Game Points", slug: "project-pakman" },
+        { image: "{{ asset('images/uiux.png') }}", title: "UI / UX", subtitle: "Pelaporan Kerusakan Jalan", slug: "project-UIUX" },
+        { image: "{{ asset('images/SIPUtama.png') }}", title: "Sistem Informasi Pemesanan", subtitle: "Website Pemesanan Online", slug: "project-SIP" },
         { image: "{{ asset('images/projects/project8.png') }}", title: "Project 8", subtitle: "Deskripsi singkat project 8", slug: "project-8" },
     ];
 
@@ -162,7 +162,7 @@ document.addEventListener('DOMContentLoaded', function () {
  
     /* ===== Autoplay ===== */
     let autoplayTimer = null;
-    const AUTOPLAY_DELAY = 2500;
+    const AUTOPLAY_DELAY = 4000;
     const myprojectSection = document.querySelector('.myproject');
  
     function startAutoplay() {

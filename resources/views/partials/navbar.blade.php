@@ -1,6 +1,9 @@
 <nav class="navbar navbar-expand-lg fixed-top">
     <div class="container">
-        <a class="navbar-brand" href="#home">PORTOFOLIO</a>
+
+        <a class="navbar-brand" href="{{ url('/#home') }}">
+            PORTOFOLIO
+        </a>
 
         <button
             class="navbar-toggler"
@@ -16,24 +19,43 @@
 
         <div class="collapse navbar-collapse" id="menu">
             <ul class="navbar-nav ms-auto">
+
                 <li class="nav-item">
-                    <a href="#home" class="nav-link">Home</a>
+                    <a href="{{ url('/#home') }}" class="nav-link">
+                        Home
+                    </a>
                 </li>
+
                 <li class="nav-item">
-                    <a href="#about" class="nav-link">About</a>
+                    <a href="{{ url('/#about') }}" class="nav-link">
+                        About
+                    </a>
                 </li>
+
                 <li class="nav-item">
-                    <a href="#education" class="nav-link">Education</a>
+                    <a href="{{ url('/#education') }}" class="nav-link">
+                        Education
+                    </a>
                 </li>
+
                 <li class="nav-item">
-                    <a href="#skills" class="nav-link">Skills</a>
+                    <a href="{{ url('/#skills') }}" class="nav-link">
+                        Skills
+                    </a>
                 </li>
+
                 <li class="nav-item">
-                    <a href="#project" class="nav-link">Project</a>
+                    <a href="{{ url('/#project') }}" class="nav-link">
+                        Project
+                    </a>
                 </li>
+
                 <li class="nav-item">
-                    <a href="#contact" class="nav-link">Contact</a>
+                    <a href="{{ url('/#contact') }}" class="nav-link">
+                        Contact
+                    </a>
                 </li>
+
             </ul>
         </div>
     </div>

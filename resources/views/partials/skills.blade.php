@@ -28,7 +28,7 @@
                 <div class="skills-bars">
                     <div class="skill-bar-item">
                         <div class="skill-bar-top"><span>PHP Laravel</span><span>Intermediate</span></div>
-                        <div class="skill-bar-track"><div class="skill-bar-fill" data-width="75"></div></div>
+                        <div class="skill-bar-track"><div class="skill-bar-fill" data-width="85"></div></div>
                     </div>
                     <div class="skill-bar-item">
                         <div class="skill-bar-top"><span>Tailwind CSS</span><span>Intermediate</span></div>
@@ -40,15 +40,19 @@
                     </div>
                     <div class="skill-bar-item">
                         <div class="skill-bar-top"><span>MySQL</span><span>Intermediate</span></div>
-                        <div class="skill-bar-track"><div class="skill-bar-fill" data-width="70"></div></div>
-                    </div>
-                    <div class="skill-bar-item">
-                        <div class="skill-bar-top"><span>Git</span><span>Intermediate</span></div>
                         <div class="skill-bar-track"><div class="skill-bar-fill" data-width="65"></div></div>
                     </div>
                     <div class="skill-bar-item">
+                        <div class="skill-bar-top"><span>Git</span><span>Intermediate</span></div>
+                        <div class="skill-bar-track"><div class="skill-bar-fill" data-width="70"></div></div>
+                    </div>
+                    <div class="skill-bar-item">
+                        <div class="skill-bar-top"><span>RESTfull API</span><span>Beginner</span></div>
+                        <div class="skill-bar-track"><div class="skill-bar-fill" data-width="50"></div></div>
+                    </div>
+                    <div class="skill-bar-item">
                         <div class="skill-bar-top"><span>JavaScript</span><span>Beginner</span></div>
-                        <div class="skill-bar-track"><div class="skill-bar-fill" data-width="40"></div></div>
+                        <div class="skill-bar-track"><div class="skill-bar-fill" data-width="50"></div></div>
                     </div>
                     <div class="skill-bar-item">
                         <div class="skill-bar-top"><span>Java</span><span>Beginner</span></div>

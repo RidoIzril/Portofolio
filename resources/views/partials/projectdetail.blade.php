@@ -53,8 +53,40 @@
         </div>
 
         <div class="pdetail-showcase reveal">
-            <span class="showcase-badge">Featured</span>
-            <img src="{{ asset($project['image']) }}" alt="Tampilan utama {{ $project['title'] }}">
+
+            @php $showcaseImages = $project['images'] ?? []; @endphp
+
+            @if (!empty($showcaseImages))
+            <div class="showcase-slider" id="gallerySlider">
+
+                <button type="button" class="slider-arrow prev" id="gPrev" aria-label="Gambar sebelumnya">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"/></svg>
+                </button>
+
+                <div class="slider-viewport">
+                    <div class="slider-track" id="sliderTrack">
+                        @foreach ($showcaseImages as $img)
+                            @php
+                                $src = is_array($img) ? ($img['src'] ?? '') : $img;
+                                $caption = is_array($img) ? ($img['caption'] ?? '') : '';
+                            @endphp
+                            <div class="slide">
+                                @if ($caption)
+                                    <span class="showcase-badge">{{ $caption }}</span>
+                                @endif
+                                <img src="{{ asset($src) }}" alt="{{ $caption ?: $project['title'] }}">
+                            </div>
+                        @endforeach
+                    </div>
+                </div>
+
+                <button type="button" class="slider-arrow next" id="gNext" aria-label="Gambar berikutnya">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"/></svg>
+                </button>
+            </div>
+
+            <div class="slider-dots" id="sliderDots"></div>
+            @endif
         </div>
 
     </div>
@@ -90,43 +122,20 @@
                 </ul>
             @endif
 
-            <div class="pdetail-links">
-                <a href="{{ $project['source_url'] }}" class="btn-more btn-block" target="_blank" rel="noopener noreferrer">Source Code</a>
-            </div>
+           @if (!empty($project['source_url']))
+                <div class="pdetail-links">
+                    <a href="{{ $project['source_url'] }}"
+                    class="btn-more btn-block"
+                    target="_blank"
+                    rel="noopener noreferrer">
+                        Source Code
+                    </a>
+                </div>
+            @endif
         </div>
 
     </div>
 </section>
-
-@if (!empty($project['gallery']))
-<section class="pdetail-gallery">
-    <h2 class="section-heading center reveal">Galeri Tampilan</h2>
-
-    <div class="gallery-slider reveal" id="gallerySlider">
-
-        <button type="button" class="slider-arrow prev" id="gPrev" aria-label="Slide sebelumnya">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"/></svg>
-        </button>
-
-        <div class="slider-viewport">
-            <div class="slider-track" id="sliderTrack">
-                @foreach ($project['gallery'] as $item)
-                    <div class="slide">
-                        <img src="{{ asset($item['src']) }}" alt="{{ $item['caption'] }}">
-                        <div class="slide-caption">{{ $item['caption'] }}</div>
-                    </div>
-                @endforeach
-            </div>
-        </div>
-
-        <button type="button" class="slider-arrow next" id="gNext" aria-label="Slide berikutnya">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"/></svg>
-        </button>
-    </div>
-
-    <div class="slider-dots reveal" id="sliderDots"></div>
-</section>
-@endif
 
 <section class="pdetail-nav">
     <a href="{{ route('project.detail', $prevProject['slug']) }}" class="pdetail-nav-link prev reveal">
@@ -152,7 +161,7 @@
 document.addEventListener('DOMContentLoaded', function () {
 
     /* ===== Reveal on scroll ===== */
-    const revealEls = document.querySelectorAll('.pdetail-hero .reveal, .pdetail-about .reveal, .pdetail-gallery .reveal, .pdetail-nav .reveal');
+    const revealEls = document.querySelectorAll('.pdetail-hero .reveal, .pdetail-about .reveal, .pdetail-nav .reveal');
 
     const observer = new IntersectionObserver((entries) => {
         entries.forEach((entry) => {
@@ -164,7 +173,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
     revealEls.forEach((el) => observer.observe(el));
 
-    /* ===== Gallery slider ===== */
+    /* ===== Showcase slider ===== */
     const track = document.getElementById('sliderTrack');
     if (!track) return;
 
@@ -180,7 +189,7 @@ document.addEventListener('DOMContentLoaded', function () {
         const dot = document.createElement('button');
         dot.type = 'button';
         dot.className = 'slider-dot' + (i === 0 ? ' active' : '');
-        dot.setAttribute('aria-label', 'Ke slide ' + (i + 1));
+        dot.setAttribute('aria-label', 'Ke gambar ' + (i + 1));
         dot.addEventListener('click', () => goTo(i));
         dotsWrap.appendChild(dot);
     });

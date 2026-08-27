@@ -204,12 +204,79 @@ class ProjectController extends Controller
                     'Manajemen User',
                     'Laporan Pesanan'
                 ],
-                'image' => [
+                'images' => [
                     ['src' => 'images/SIPUtama.png', 'caption' => 'Feautured'],
                 ],
                 'source_url' => 'https://github.com/RidoIzril/SIP_PWeb.git',
             ],
-            
+            [
+                'slug' => 'project-aspx',
+                'title' => 'Website Kasir Surabaya Festival',
+                'subtitle' => 'Kasir online - Sistem Informasi UPNVJT',
+                'role' => 'Web Developer',
+                'duration' => 'Mei 2024',
+                'status' => 'Selesai',
+                'description' => ['
+                Mengembangkan sistem kasir untuk pemesanan dan pengelolaan transaksi tiket
+                Dengan fitur pelanggan, wahana, transaksi, dan laporan penjualan serta
+                Menggunakan ASP.NET Web Forms, VB.NET, dan MySQL.
+                '],
+                'tech_stack' => [
+                    'ASP.NET',
+                    'WEB Forms',
+                    'VB.NET',
+                    'MySQL',
+                    'Visual Studio 2022'
+                ],
+                'features' => [
+                    'Kelola Data Pelanggan',
+                    'Kelola Data Tiket Wahana',
+                    'Kelola Transaksi',
+                    'Laporan Penjualan'
+                ],
+                'images' => [
+                    ['src' => 'images/loginaspx.png', 'caption' => 'Login'],
+                    ['src' => 'images/homeaspx.png', 'caption' => 'Dashboard'],
+                    ['src' => 'images/custaspx.png', 'caption' => 'Manajemen Data Pelanggan'],
+                    ['src' => 'images/tiketaspx.png', 'caption' => 'Manajemen Tiket'],
+                    ['src' => 'images/transaksiaspx.png', 'caption' => 'Manajemen Transaksi'],
+                    ['src' => 'images/laporanaspx.png', 'caption' => 'Laporan Penjualan'],
+                ],
+                'source_url' => 'https://github.com/RidoIzril/Project-.ASPX.git',
+            ],
+            [
+                'slug' => 'project-datmin',
+                'title' => 'Data Mining',
+                'subtitle' => 'Analisis pemodelan data - Sistem Informasi UPNVJT',
+                'role' => 'Data Analyst',
+                'duration' => 'Juni 2025',
+                'status' => 'Selesai',
+                'description' => ['
+                Menganalisis opini publik menggunakan Python & Machine Learning, dimulai dari web scraping, 
+                filtering & preprocessing, EDA, hingga Word Cloud. Menguji 5 model Machine Learning melalui beberapa skenario 
+                untuk membandingkan performa dan menemukan model dengan hasil terbaik dalam klasifikasi opini.
+                '],
+                'tech_stack' => [
+                    'Python',
+                    'Google Collab',
+                    'Matpolib',
+                    'Pandas',
+                ],
+                'features' => [
+                    'Scrapping',
+                    'Filtering',
+                    'Model Evaluasi'
+                ],
+                'images' => [
+                    ['src' => 'images/scrapping.png', 'caption' => 'Scrapping data'],
+                    ['src' => 'images/filtering.png', 'caption' => 'Filter Data'],
+                    ['src' => 'images/worldcloud.png', 'caption' => 'World Cloud Keseluruhan'],
+                    ['src' => 'images/wordcloud2.png', 'caption' => 'World Cloud Positive dan Negatif'],
+                    ['src' => 'images/visual.png', 'caption' => 'Visualisasi Data'],
+                    ['src' => 'images/model.png', 'caption' => 'Perbandingan Model'],
+                ],
+                'source_url' => 'https://colab.research.google.com/drive/1XXUAPn1_EHk4mpn6jZ3GyKXCvk5tX4bZ?usp=sharing',
+            ],
         ];
     }
 

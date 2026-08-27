@@ -1002,6 +1002,7 @@ body{
     .edu-item-body p{
         font-size:12.5px;
     }
+    
 }
 
 /* ===========================
@@ -1492,19 +1493,42 @@ body{
     margin-bottom:18px;
 }
 
-.contact-list{
-    display:flex;
-    flex-direction:column;
+.contact-list {
+    display: flex;
+    flex-direction: column;
+
+    position: relative;
+    z-index: 10;
 }
 
-.contact-item{
-    display:flex;
-    align-items:center;
-    gap:14px;
-    padding:9px 0;
-    color:#fff;
-    font-size:14px;
-    font-weight:600;
+.contact-item {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    padding: 9px 0;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 600;
+
+    /* Link */
+    text-decoration: none;
+    cursor: pointer;
+
+    /* Pastikan bisa menerima klik */
+    position: relative;
+    z-index: 10;
+
+    /* Animasi */
+    transition: transform 0.2s ease, color 0.2s ease;
+}
+
+.contact-item:hover {
+    color: #ff2d2d;
+    transform: translateX(5px);
+}
+
+.contact-item:hover .contact-icon {
+    background: rgba(255, 45, 45, 0.1);
 }
 
 .contact-icon{

@@ -50,7 +50,7 @@
     <div class="hero-buttons">
 
         <!-- Download CV -->
-        <a href="https://drive.google.com/file/d/1fLAx3vejc-gF4a8pYqt7J06Xvhs5YDXx/view?usp=sharing"
+        <a href="https://drive.google.com/file/d/1PxwetqjP4_PZjnNWITSgXtSuEsd-0F2K/view?usp=sharing"
            class="btn-red"
            target="_blank"
            rel="noopener noreferrer">

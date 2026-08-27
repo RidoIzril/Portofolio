@@ -74,6 +74,8 @@ document.addEventListener('DOMContentLoaded', function () {
         { image: "{{ asset('images/pakman.png') }}", title: "Game Pakman", subtitle: "Website Game Points", slug: "project-pakman" },
         { image: "{{ asset('images/uiux.png') }}", title: "UI / UX", subtitle: "Pelaporan Kerusakan Jalan", slug: "project-UIUX" },
         { image: "{{ asset('images/SIPUtama.png') }}", title: "Sistem Informasi Pemesanan", subtitle: "Website Pemesanan Online", slug: "project-SIP" },
+        { image: "{{ asset('images/homeaspx.png') }}", title: "Website Kasir Surabaya Festival", subtitle: "Website Kasir Online", slug: "project-aspx" },
+        { image: "{{ asset('images/model.png') }}", title: "Data Mining", subtitle: "Analisis Kinerja Pemerintah", slug: "project-datmin" },
     ];
 
      let current = 0;

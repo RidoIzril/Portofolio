@@ -14,6 +14,7 @@
             <div class="contact-frame">
 
                 <h2 class="contact-title">CONTACT<br>ME</h2>
+
             </div>
 
             <p class="contact-desc">
@@ -24,58 +25,188 @@
 
             <div class="contact-list">
 
-                <div class="contact-item">
-                    <div class="contact-icon">
-                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                            <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.362 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.338 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/>
-                        </svg>
-                    </div>
-                    <span>0813-3136-4027</span>
-                </div>
+                {{-- WhatsApp --}}
+<a href="https://wa.me/6281331364027?text=Halo%20Rido%2C%20saya%20menghubungi%20Anda%20terkait%20peluang%20kerja%20di%20perusahaan%20kami.%20Saya%20tertarik%20dengan%20profil%20dan%20portofolio%20Anda.%20Apakah%20kita%20dapat%20berdiskusi%20lebih%20lanjut%20mengenai%20kesempatan%20ini%3F"
+   target="_blank"
+   rel="noopener noreferrer"
+   class="contact-item">
+
+    <div class="contact-icon">
+        <svg xmlns="http://www.w3.org/2000/svg"
+             viewBox="0 0 24 24"
+             fill="currentColor">
+
+            <path d="M12.04 2C6.52 2 2.04 6.48 2.04 12
+            c0 1.76.46 3.41 1.27 4.85L2 22l5.3-1.27
+            A9.94 9.94 0 0 0 12.04 22
+            C17.56 22 22.04 17.52 22.04 12
+            S17.56 2 12.04 2zm0 18.18
+            c-1.55 0-3.06-.42-4.38-1.21l-.31-.18
+            -3.15.75.75-3.07-.2-.32
+            A8.18 8.18 0 1 1 12.04 20.18zm4.48-6.14
+            c-.24-.12-1.42-.7-1.64-.78
+            -.22-.08-.38-.12-.54.12
+            -.16.24-.62.78-.76.94
+            -.14.16-.28.18-.52.06
+            -.24-.12-1.02-.38-1.94-1.2
+            -.72-.64-1.2-1.43-1.34-1.67
+            -.14-.24-.01-.37.11-.49
+            .11-.11.24-.28.36-.42
+            .12-.14.16-.24.24-.4
+            .08-.16.04-.3-.02-.42
+            -.06-.12-.54-1.3-.74-1.78
+            -.2-.48-.4-.42-.54-.43
+            -.14-.01-.3-.01-.46-.01
+            -.16 0-.42.06-.64.3
+            -.22.24-.84.82-.84 2s.86 2.32.98 2.48
+            c.12.16 1.69 2.58 4.1 3.62
+            .57.25 1.02.4 1.37.51
+            .58.18 1.11.15 1.53.09
+            .47-.07 1.42-.58 1.62-1.14
+            .2-.56.2-1.04.14-1.14
+            -.06-.1-.22-.16-.46-.28z"/>
+        </svg>
+    </div>
+
+    <span>0813-3136-4027</span>
+
+</a>
+
+<div class="contact-divider"></div>
+
+                {{-- Email --}}
+                <a
+    href="https://mail.google.com/mail/?view=cm&fs=1&to=ridoizril@gmail.com&su=Regarding%20Your%20Portfolio%20-%20Rido%20Izril%20Qonata&body=Halo%20Rido%2C%0A%0ASaya%20[Nama]%20dari%20[Perusahaan].%20Saya%20telah%20melihat%20portfolio%20Anda%20dan%20ingin%20berdiskusi%20mengenai%20peluang%20karier.%0A%0ATerima%20kasih."
+    target="_blank"
+    rel="noopener noreferrer"
+    class="contact-item"
+>
+    <div class="contact-icon">
+        <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+        >
+            <rect x="2" y="4" width="20" height="16" rx="2"/>
+            <path d="m2 7 10 6 10-6"/>
+        </svg>
+    </div>
+
+    <span>ridoizril@gmail.com</span>
+</a>
+
                 <div class="contact-divider"></div>
 
-                <div class="contact-item">
-                    <div class="contact-icon">
-                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                            <rect x="2" y="4" width="20" height="16" rx="2"/>
-                            <path d="m2 7 10 6 10-6"/>
-                        </svg>
-                    </div>
-                    <span>ridoizril@gmail.com</span>
-                </div>
-                <div class="contact-divider"></div>
+                {{-- Instagram --}}
+                <a href="https://www.instagram.com/rido_izril/"
+                   target="_blank"
+                   rel="noopener noreferrer"
+                   class="contact-item">
 
-                <div class="contact-item">
                     <div class="contact-icon">
-                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <svg xmlns="http://www.w3.org/2000/svg"
+                             viewBox="0 0 24 24"
+                             fill="none"
+                             stroke="currentColor"
+                             stroke-width="2"
+                             stroke-linecap="round"
+                             stroke-linejoin="round">
                             <rect x="2" y="2" width="20" height="20" rx="5"/>
                             <circle cx="12" cy="12" r="4"/>
-                            <circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"/>
+                            <circle cx="17.5" cy="6.5" r="1"
+                                    fill="currentColor"
+                                    stroke="none"/>
                         </svg>
                     </div>
+
                     <span>&#64;ridoizril</span>
-                </div>
+
+                </a>
 
             </div>
 
+            {{-- Social Media --}}
             <div class="contact-socials">
-                <a href="https://www.linkedin.com/in/rido-izril-qonata-b25387310/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
-                        <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 1 1 0-4.125 2.062 2.062 0 0 1 0 4.125zM7.114 20.452H3.559V9h3.555v11.452z"/>
+
+                {{-- LinkedIn --}}
+                <a href="https://www.linkedin.com/in/rido-izril-qonata-b25387310/"
+                   target="_blank"
+                   rel="noopener noreferrer"
+                   aria-label="LinkedIn">
+
+                    <svg xmlns="http://www.w3.org/2000/svg"
+                         viewBox="0 0 24 24"
+                         fill="currentColor">
+
+                        <path d="M20.447 20.452h-3.554v-5.569
+                        c0-1.328-.027-3.037-1.852-3.037
+                        -1.853 0-2.136 1.445-2.136 2.939
+                        v5.667H9.351V9h3.414v1.561h.046
+                        c.477-.9 1.637-1.85 3.37-1.85
+                        3.601 0 4.267 2.37 4.267 5.455
+                        v6.286zM5.337 7.433a2.062 2.062 0 1
+                        1 0-4.125 2.062 2.062 0 0 1 0
+                        4.125zM7.114 20.452H3.559V9h3.555
+                        v11.452z"/>
                     </svg>
+
                 </a>
-                <a href="https://github.com/ridoizril" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
-                        <path d="M12 .5C5.73.5.98 5.24.98 11.52c0 5.02 3.26 9.28 7.78 10.78.57.1.78-.25.78-.55 0-.27-.01-1.17-.02-2.12-3.17.69-3.84-1.34-3.84-1.34-.52-1.32-1.27-1.67-1.27-1.67-1.04-.71.08-.7.08-.7 1.15.08 1.75 1.18 1.75 1.18 1.02 1.75 2.68 1.24 3.33.95.1-.74.4-1.24.72-1.53-2.53-.29-5.19-1.27-5.19-5.63 0-1.24.44-2.26 1.17-3.06-.12-.29-.51-1.45.11-3.02 0 0 .96-.31 3.15 1.17.91-.25 1.89-.38 2.86-.38.97 0 1.95.13 2.86.38 2.19-1.48 3.15-1.17 3.15-1.17.62 1.57.23 2.73.11 3.02.73.8 1.17 1.82 1.17 3.06 0 4.37-2.67 5.34-5.21 5.62.41.36.77 1.06.77 2.14 0 1.55-.01 2.79-.01 3.17 0 .31.2.66.79.55A11.03 11.03 0 0 0 23.02 11.5C23.02 5.24 18.27.5 12 .5z"/>
+
+                {{-- GitHub --}}
+                <a href="https://github.com/ridoizril"
+                   target="_blank"
+                   rel="noopener noreferrer"
+                   aria-label="GitHub">
+
+                    <svg xmlns="http://www.w3.org/2000/svg"
+                         viewBox="0 0 24 24"
+                         fill="currentColor">
+
+                        <path d="M12 .5C5.73.5.98 5.24.98 11.52
+                        c0 5.02 3.26 9.28 7.78 10.78
+                        .57.1.78-.25.78-.55
+                        0-.27-.01-1.17-.02-2.12
+                        -3.17.69-3.84-1.34-3.84-1.34
+                        -.52-1.32-1.27-1.67-1.27-1.67
+                        -1.04-.71.08-.7.08-.7
+                        1.15.08 1.75 1.18 1.75 1.18
+                        1.02 1.75 2.68 1.24 3.33.95
+                        .1-.74.4-1.24.72-1.53
+                        -2.53-.29-5.19-1.27-5.19-5.63
+                        0-1.24.44-2.26 1.17-3.06
+                        -.12-.29-.51-1.45.11-3.02
+                        0 0 .96-.31 3.15 1.17
+                        .91-.25 1.89-.38 2.86-.38
+                        .97 0 1.95.13 2.86.38
+                        2.19-1.48 3.15-1.17 3.15-1.17
+                        .62 1.57.23 2.73.11 3.02
+                        .73.8 1.17 1.82 1.17 3.06
+                        0 4.37-2.67 5.34-5.21 5.62
+                        .41.36.77 1.06.77 2.14
+                        0 1.55-.01 2.79-.01 3.17
+                        0 .31.2.66.79.55
+                        A11.03 11.03 0 0 0 23.02 11.5
+                        C23.02 5.24 18.27.5 12 .5z"/>
                     </svg>
+
                 </a>
+
             </div>
 
         </div>
 
+        {{-- Profile Photo --}}
         <div class="contact-photo">
+
             <div class="contact-circle"></div>
-            <img src="{{ asset('images/Profile.png') }}" alt="Foto profil Rido Izril Qonata">
+
+            <img src="{{ asset('images/Profile.png') }}"
+                 alt="Foto profil Rido Izril Qonata">
+
         </div>
 
     </div>

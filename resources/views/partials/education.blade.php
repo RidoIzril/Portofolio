@@ -9,7 +9,7 @@
             <div class="edu-circle"></div>
 
             <img
-                src="{{ asset('images/upn.png') }}"
+                src="{{ asset('images/UPN.jpeg') }}"
                 alt="Kampus UPN Veteran Jawa Timur"
             >
         </div>
